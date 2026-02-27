@@ -1,34 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-    <meta charset="UTF-8">
-    <title>Eternal Snows</title>
-    <link rel="stylesheet" href="./style.css">
-
-  </head>
-    
-  <body>
-
-<!DOCTYPE html>
-<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Eternal Snows & Grand Froid Carousel</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <!-- PAGE D'OUVERTURE -->
-  <div id="introPage" class="intro-page">
-    <div class="intro-content">
+  <!-- Intro Page: Welcome Screen -->
+  <section id="introPage" class="intro-page">
+    <article class="intro-content">
       <h1 class="intro-title">
         <span class="one">❄️ Eternal Snows</span>
-        <span class="two"> Carousel</span>
+          <span class="two">Carousel</span>
       </h1>
       <p class="intro-subtitle">Grand Froid et Neiges Éternelles</p>
       
-      <div class="intro-text">
+      <!-- Project Information -->
+      <section class="intro-text">
         <h2>🌍 Project Overview</h2>
         <p>This <strong>responsive web carousel</strong> showcases stunning high-resolution images of <strong>snow-capped peaks, glacial valleys, and frozen tundras</strong> - the ultimate embodiment of "Grand Froid et Neiges Éternelles". Each image <strong>pivots smoothly on hover</strong> (3-second GPU-accelerated 3D rotation) to reveal detailed presentations on the verso.</p>
         
@@ -39,17 +30,16 @@
           <li><strong>Glacial crevasses, ice caves, polar expeditions</strong> themes</li>
           <li><strong>Silky smooth 3D flip</strong> with perspective: 1000px</li>
         </ul>
-      </div>
+      </section>
 
-      <button onclick="startCarousel()" class="intro-button">
-        🚀 Enter the Frozen World
-      </button>
-    </div>
-  </div>
+              <button onclick="startCarousel()" class="intro-button">🚀 Enter the Frozen World</button>
+    </article>
+  </section>
 
-  <!-- CARROUSEL -->
-  <div id="carouselPage" class="carousel-page">
+    <!-- Carousel Page: Image Gallery -->
+  <section id="carouselPage" class="carousel-page">
     <div class="carousel-inner">
+      <!-- 3D Flip Card Container -->
       <div class="scene">
         <div class="card" id="card">
           <div class="card__face card__face--front" id="front"></div>
@@ -57,21 +47,19 @@
         </div>
       </div>
       
-      <div class="controls">
-        <button onclick="previousCard()">◀ Previous</button>
-        <button onclick="nextCard()">Next ▶</button>
+      <!-- Navigation Controls -->
+      <div class="controls" role="group" aria-label="Carousel navigation">
+        <button onclick="previousCard()" aria-label="Previous image">◀ Previous</button>
+        <button onclick="nextCard()" aria-label="Next image">Next ▶</button>
       </div>
-      <div class="footer-icons">
-        <h4>Powered by SHadjadj</h4>
+    
+
     </div>
-  </div>
-  <script src="script.js"></script>
+
+  </section>
+
 </body>
 
+ <script src="script.js"></script>
 
-</html>
-    <script  src="./script.js"></script>
-
-  </body>
-  
 </html>
