@@ -1,60 +1,90 @@
 
 # ❄️ Eternal Snows Carousel
 
-A breathtaking, fully responsive 3D carousel showcasing the beauty of eternal snow, glaciers, polar expeditions, and arctic life.  
-Each card flips smoothly on hover to reveal poetic descriptions.
+A cinematic and immersive 3D experience inspired by glaciers, polar landscapes, and extreme frozen environments.
 
-🔗 **Live demo:** [https://eternal-snows-carousel.vercel.app](https://eternal-snows-carousel.vercel.app)
+Each card reveals a visual and poetic journey through eternal snow, enhanced with smooth animations, ambient sound, and atmospheric effects.
+
+🔗 **Live demo:** https://eternal-snows-carousel.vercel.app
+
+---
+
+## 🌍 Overview
+
+Eternal Snows is a responsive interactive carousel showcasing high-resolution images of snow-covered mountains, glacial valleys, and arctic landscapes.
+
+Designed as a **visual storytelling experience**, it combines motion, sound, and atmosphere to create a calm and immersive environment.
 
 ---
 
 ## ✨ Features
 
-- 🏔️ **20+ high‑quality images** from Unsplash & Pexels
-- 🔄 **Smooth 3D flip animation** on hover
-- 🌍 **Fully responsive** – desktop, tablet, mobile
-- 📝 **Poetic descriptions** in English on the back of each card
-- 🎨 **Elegant glass‑morphism design**
-- ⚡ **Optimized performance** with local images
-- ♿ **Accessible** (ARIA labels, keyboard navigation)
+* 🏔️ **20+ high-quality images** (Unsplash & Pexels)
+* 🔄 **Smooth 3D flip animation** (cinematic timing)
+* 🎧 **Ambient background music**
+* 🌨️ **Dynamic snowfall effect**
+* 📱 **Fully responsive** (desktop, tablet, mobile)
+* 🎨 **Modern glass-morphism UI**
+* ⚡ **Optimized performance** with local assets
+* 🧊 **Immersive UX design**
 
 ---
 
-## 🗂️ Project structure
+## 🗂️ Project Structure
+
 eternal-snows-carousel/
-├── src/ # source files
-│ ├── index.html
-│ ├── style.css
-│ └── script.js
-├── dist/ # production files
-│ ├── index.html
-│ ├── style.css
-│ └── script.js
-├── images/ # local images
-├── .gitignore
-└── README.md
+├── index.html
+├── style.css
+├── script.js
+├── images/
+├── assets/
+│   └── audio/
+├── README.md
+└── LICENSE.txt
 
 ---
 
-## 🛠️ Built with
+## 🛠️ Built With
 
-- **HTML5** – semantic structure
-- **CSS3** – Flexbox, 3D transforms, glass‑morphism
-- **JavaScript (ES6)** – dynamic card loading, event handling
-- **Vercel** – seamless deployment
+* **HTML5** – semantic structure
+* **CSS3** – 3D transforms, animations, visual effects
+* **JavaScript (ES6)** – interactivity and dynamic behavior
+* **Vercel** – deployment
 
 ---
 
-## 🚀 Getting started
+## 🚀 Getting Started
 
 ```bash
-# Clone the repository
 git clone https://github.com/saidhadjadj/eternal-snows-carousel.git
 cd eternal-snows-carousel
+```
 
-# Open in your browser
-open src/index.html   # or double‑click the file
-🙏 Acknowledgments
-Images from Unsplash and Pexels
+Then open `index.html` in your browser.
 
-Built with love and Cursor
+---
+
+## 🎯 Use Cases
+
+* Portfolio projects
+* Creative front-end experiments
+* Visual storytelling
+* Interactive UI showcase
+
+---
+
+## 🙏 Acknowledgments
+
+🎧 Ambient background music (royalty-free piano track)
+Audio starts on user interaction (browser autoplay policy compliant)
+---
+
+## 📜 License
+
+This project is licensed under the MIT License.
+
+---
+
+## 👤 Author
+
+Said Hadjadj
